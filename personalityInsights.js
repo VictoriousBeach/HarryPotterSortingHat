@@ -3,7 +3,7 @@ const PersonalityInsightsV3 = require('ibm-watson/personality-insights/v3');
 
 const personality_insights = new PersonalityInsightsV3({
     version: '2017-10-13',
-    iam_apikey: 'l7SdqIQYabKP3bgayEywzIWMzxDc4oQC5Y8P-9aP0COQ',
+    iam_apikey: API_KEY,
     url: 'https://gateway-wdc.watsonplatform.net/personality-insights/api'
 });
 const PersonalityTextSummaries = require('personality-text-summary');
